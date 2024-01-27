@@ -658,9 +658,12 @@ header>div p {
     background-color: var(--main-txt-color);
     padding-left: 14.08px;
     padding-top: 11.54px;
+    transition: 400ms;
     cursor: pointer;
 }
-
+.navigation span:hover{
+    background-color: var(--hover-btn-color);
+}
 .navigation span:last-child {
     padding-left: 17.46px;
 }
